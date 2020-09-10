@@ -35,7 +35,7 @@ class Helper
 
         $fields = array();
 
-        $fields[trans('calendar::seat.starts_at')] = $op->start_at_text;
+        $fields[trans('calendar::seat.starts_at')] = $op->start_at_kst->format('F j @ H:i KST');
         $fields[trans('calendar::seat.duration')] = $op->getDurationAttribute() ?
             $op->getDurationAttribute() : trans('calendar::seat.unknown');
 

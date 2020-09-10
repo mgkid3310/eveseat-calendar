@@ -31,7 +31,6 @@ class Operation extends Model
         'title',
         'start_at',
         'start_at_kst',
-        'start_at_text',
         'end_at',
         'importance',
         'integration_id',
