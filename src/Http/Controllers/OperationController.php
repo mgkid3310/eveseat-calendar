@@ -101,8 +101,6 @@ class OperationController extends Controller
         }
 
         $operation->start_at = Carbon::parse($operation->start_at);
-        $operation->start_at_kst = $operation->start_at
-        $operation->start_at_kst->add(new DateInterval('PT9H'));
 
         if ($request->importance == 0)
             $operation->importance = 0;
@@ -163,8 +161,6 @@ class OperationController extends Controller
             }
 
             $operation->start_at = Carbon::parse($operation->start_at);
-            $operation->start_at_kst = $operation->start_at
-            $operation->start_at_kst->add(new DateInterval('PT9H'));
 
             if ($request->importance == 0)
                 $operation->importance = 0;
