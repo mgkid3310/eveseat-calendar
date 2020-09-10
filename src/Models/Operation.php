@@ -30,6 +30,8 @@ class Operation extends Model
     protected $fillable = [
         'title',
         'start_at',
+        'start_at_kst',
+        'start_at_text',
         'end_at',
         'importance',
         'integration_id',
@@ -47,7 +49,7 @@ class Operation extends Model
     /**
      * @var array
      */
-    protected $dates = ['start_at', 'end_at', 'created_at', 'updated_at'];
+    protected $dates = ['start_at', 'start_at_kst', 'end_at', 'created_at', 'updated_at'];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
