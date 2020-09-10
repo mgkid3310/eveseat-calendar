@@ -68,7 +68,7 @@ return [
     'placeholder_title'        => 'Name of the operation',
     'placeholder_staging'      => 'Meetup location (system, station, citadel...)',
     'placeholder_staging_sys'  => 'Meetup system',
-    'placeholder_staging_info' => 'More informations about the staging',
+    'placeholder_staging_info' => 'Doctrines used in Operation',
     'placeholder_fc'           => 'Name of the fleet commander',
     'placeholder_description'  => 'Additional information about the operation. This field supports BBCode.',
     'placeholder_comment'      => 'Additional information',
@@ -94,7 +94,7 @@ return [
     'importance'      => 'Importance',
     'staging'         => 'Staging',
     'staging_sys'     => 'Staging system',
-    'staging_info'    => 'Staging info',
+    'staging_info'    => 'Doctrine info',
     'fleet_commander' => 'Fleet Commander',
     'character'       => 'Character',
 
